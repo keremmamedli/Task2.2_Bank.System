@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task 2.2 (Bank System)\\Task 2.2 (Bank System)\\Task 2.2 (Bank System).csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task2.2(Bank System)\\Task 2.2 (Bank System)\\Task 2.2 (Bank System).csproj",
       "projectName": "Task 2.2 (Bank System)",
-      "projectPath": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task 2.2 (Bank System)\\Task 2.2 (Bank System)\\Task 2.2 (Bank System).csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task2.2(Bank System)\\Task 2.2 (Bank System)\\Task 2.2 (Bank System).csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task 2.2 (Bank System)\\Task 2.2 (Bank System)\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Code Academy Tasks\\Task2.2(Bank System)\\Task 2.2 (Bank System)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

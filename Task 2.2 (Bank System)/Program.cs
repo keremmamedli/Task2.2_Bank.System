@@ -2,6 +2,7 @@
 
 namespace Task_2._2__Bank_System_
 {
+    #region Bank Class
     abstract class Bank
     {
         public string FullName { get; set; }
@@ -20,6 +21,11 @@ namespace Task_2._2__Bank_System_
         public abstract void Income(decimal money);
         public abstract void Expense(decimal money);
     }
+    #endregion
+
+
+    #region Unibank
+
 
     abstract class UniBank : Bank
     {
@@ -53,6 +59,12 @@ namespace Task_2._2__Bank_System_
         }
     }
 
+
+
+    #endregion
+
+
+    #region AccessBank
     abstract class AccessBank : Bank
     {
         public AccessBank(string FullName, string Card_Code, int CVV, decimal Balance)
@@ -84,7 +96,10 @@ namespace Task_2._2__Bank_System_
             }
         }
     }
+    #endregion
 
+
+    #region PashaBank
     abstract class PashaBank : Bank
     {
         public PashaBank(string FullName, string Card_Code, int CVV, decimal Balance)
@@ -115,6 +130,11 @@ namespace Task_2._2__Bank_System_
         }
     }
 
+
+    #endregion
+
+
+    #region LeoBank
     abstract class LeoBank : Bank
     {
         public LeoBank(string FullName, string Card_Code, int CVV, decimal Balance)
@@ -146,12 +166,12 @@ namespace Task_2._2__Bank_System_
             }
         }
     }
-
+    #endregion
     class Program
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(AccessBank); ;
         }
     }
 }
