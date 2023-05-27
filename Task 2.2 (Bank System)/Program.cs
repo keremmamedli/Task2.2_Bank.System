@@ -171,7 +171,7 @@ namespace Task_2._2__Bank_System_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AccessBank); ;
+            Console.WriteLine(AccessBank.Balance); 
         }
     }
 }
